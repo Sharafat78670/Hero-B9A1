@@ -1,0 +1,184 @@
+header,
+main {
+    margin: 50px 140px;
+}
+
+.happy-year {
+    background-image: url('/image/Banner.png');
+    width: 1320px;
+    height: 600px;
+    align-items: center;
+
+}
+
+.happy-contain {
+    padding: 177px 344px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+}
+
+.happy {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* padding: 177px 530px 0px 530px; */
+
+}
+
+.year {
+    color: #ffffff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    /* padding: 0 344px 384px 344px; */
+
+}
+
+.discount {
+    display: inline-block;
+    justify-content: center;
+    padding: 120px 260px;
+}
+
+.off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 68px;
+    padding-bottom: 10px;
+}
+
+.holyday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    padding-top: 0;
+}
+
+.all {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+}
+
+.welcome {
+    background-image: url('/image/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    align-items: center;
+    border-radius: 16px;
+
+}
+
+.welcome-contener {
+    background: linear-gradient(90deg, #070211 10%, rgba(7, 2, 17, 0.00) 100%);
+    height: 100%;
+    border-radius: 16px;
+}
+
+.midnight {
+    padding: 126px 552px 0 126px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 7.04px;
+    width: 40%;
+}
+
+.Dolor {
+    padding: 0 552px 0 126px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.join {
+    padding: 0 1000px 0 158px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.address-contener {
+    margin-top: 50px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.address {
+    padding: 150px 385px 0px 385px;
+    text-align: center;
+}
+
+.address h2 {
+    line-height: 20px;
+}
+
+span {
+    color: #F00;
+}
+
+.join-now {
+    justify-content: center;
+    padding: 30px 575px;
+}
+
+#join {
+    text-align: center;
+    padding: 12px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+    border: 0;
+}
+
+.coming-soon-contener {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coming-soon-text {
+    width: 393px;
+}
+
+.coming-soon-ing {
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    text-align: center;
+   
+}
+
+.coming-soon-ing img { 
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+    text-align: center;
+    margin-top: 50px;
+
+}
