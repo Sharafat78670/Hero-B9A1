@@ -259,13 +259,23 @@ span {
 }
 
 .portfolio-img {
-    display: inline-block;
-    gap: 50px;
+    display: block;
+}
+.portfolio-img-style{
+  display: flex;  
+  gap: 24px;
+  width: 1140px;
+  margin-bottom: 24px;
+}
+.portfolio-img-style-1{
+    display: flex;  
+    gap: 24px;
+    width: 1140px; 
 }
 
 .subscribe-contener {
     margin-top: 50px;
-    background: rgba(255, 0, 0, 0.05);
+    background-color: rgb(242, 177, 93);
     width: 1320px;
     height: 582px;
     border-radius: 16px;
@@ -286,7 +296,7 @@ span {
 
 #subscribe {
     width: 120px;
-    height: 40px;
+    height: 42px;
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -296,4 +306,30 @@ span {
     top: 0px;
     right: 100px;
    
+}
+hr{
+    margin: 0 140px;
+}
+.footer{
+    background-color: rgb(20, 15, 15);
+}
+.footer-h{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    padding: 120px 140px 50px 140px;
+    text-align: center;
+}
+.footer-m{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px;
+}
+.footer-l{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 140px 50px 140px;
+    color: aliceblue;
+
 }
