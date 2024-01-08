@@ -76,6 +76,8 @@ main {
     height: 600px;
     align-items: center;
     border-radius: 16px;
+    display: flex;
+    justify-content:space-around;
 
 }
 
@@ -86,7 +88,7 @@ main {
 }
 
 .midnight {
-    padding: 126px 552px 0 126px;
+    padding: 126px 100px 0 126px;
     color: #FFF;
     font-family: Merriweather;
     font-size: 34px;
@@ -98,18 +100,18 @@ main {
 }
 
 .Dolor {
-    padding: 0 552px 0 126px;
+    padding: 0 100px 0 126px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+   
 }
 
 .join {
-    padding: 0 1000px 0 158px;
+    padding: 0 200px 0 158px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -157,11 +159,12 @@ span {
 .coming-soon-contener {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .coming-soon-text {
     width: 393px;
+    padding: 100px 70px 100px 0;
 }
 
 .coming-soon-ing {
@@ -170,15 +173,58 @@ span {
     border-radius: 463px;
     border: 15px solid #F00;
     text-align: center;
-   
+
 }
 
-.coming-soon-ing img { 
+.coming-soon-ing img {
     width: 364.844px;
     height: 364.844px;
     border-radius: 364.844px;
     background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
     text-align: center;
-    margin-top: 50px;
+    border: 50px solid white;
+}
 
+.coming-soon-2024 {
+    width: 276px;
+    padding: 118px 50px 118px 118px;
+}
+
+.discount50 {
+    display: flex;
+    justify-content: right;
+}
+
+.under img {
+    margin-bottom: -4px;
+}
+
+.over {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 206.841px;
+    height: 206.841px;
+}
+
+.background {
+    margin-top: 0;
+    background-image: url('/image/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 229px;
+    text-align: left;
+}
+.background img{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    width: 400px;
+    height: 320px;
+}
+.portfolio-contener{
+    display: flex;
+}
+.portfolio-content{
+    text-align: left;
 }
