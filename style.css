@@ -1,3 +1,7 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
 header,
 main {
     margin: 50px 140px;
@@ -8,13 +12,13 @@ main {
     width: 1320px;
     height: 600px;
     align-items: center;
-
 }
 
 .happy-contain {
-    padding: 177px 344px;
+    padding: 110px 344px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
+
 }
 
 .happy {
@@ -25,34 +29,37 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* padding: 177px 530px 0px 530px; */
+    padding-bottom: 16px;
 
 }
 
 .year {
+
     color: #ffffff;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 70px;
-    /* padding: 0 344px 384px 344px; */
+    line-height: 95px;
 
 }
 
 .discount {
     display: inline-block;
     justify-content: center;
-    padding: 120px 260px;
+    padding: 0 260px 50px 260px;
 }
 
 .off {
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 68px;
-    padding-bottom: 10px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   margin-bottom: 48px;
 }
 
 .holyday {
@@ -60,7 +67,6 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 16px;
-    padding-top: 0;
 }
 
 .all {
@@ -77,14 +83,15 @@ main {
     align-items: center;
     border-radius: 16px;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 .welcome-contener {
-    background: linear-gradient(90deg, #070211 10%, rgba(7, 2, 17, 0.00) 100%);
+    background: linear-gradient(45deg, #070211 25%, rgba(7, 2, 17, 0.00) 70%);
     height: 100%;
     border-radius: 16px;
+    text-align: left;
+    width: 100%;
 }
 
 .midnight {
@@ -96,7 +103,8 @@ main {
     font-weight: 900;
     line-height: 48px;
     letter-spacing: 7.04px;
-    width: 40%;
+    width: 642px;
+
 }
 
 .Dolor {
@@ -105,15 +113,15 @@ main {
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-
+    /* font-weight: 400;
+    line-height: 30px; */
+    width: 650px;
 }
 
 .join {
     padding: 0 200px 0 158px;
     color: #FFF;
-    text-align: center;
+    text-align: left;
     font-family: Inter;
     font-size: 18px;
     line-height: normal;
@@ -158,8 +166,10 @@ span {
 
 .coming-soon-contener {
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: space-around;
+    width: 1140px;
+    margin: 0 140px;
 }
 
 .coming-soon-text {
@@ -173,7 +183,6 @@ span {
     border-radius: 463px;
     border: 15px solid #F00;
     text-align: center;
-
 }
 
 .coming-soon-ing img {
@@ -188,6 +197,14 @@ span {
 .coming-soon-2024 {
     width: 276px;
     padding: 118px 50px 118px 118px;
+}
+
+.discount-contener {
+    margin-top: 50px;
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    text-align: center;
 }
 
 .discount50 {
@@ -228,12 +245,6 @@ span {
     margin-top: 600px;
 }
 
-/* .portfolio-contener {
-    display: flex;
-
-
-} */
-
 .portfolio-content {
     text-align: left;
     width: 40%;
@@ -261,26 +272,29 @@ span {
 .portfolio-img {
     display: block;
 }
-.portfolio-img-style{
-  display: flex;  
-  gap: 24px;
-  width: 1140px;
-  margin-bottom: 24px;
-}
-.portfolio-img-style-1{
-    display: flex;  
+
+.portfolio-img-style {
+    display: flex;
     gap: 24px;
-    width: 1140px; 
+    width: 1140px;
+    margin-bottom: 24px;
+}
+
+.portfolio-img-style-1 {
+    display: flex;
+    gap: 24px;
+    width: 1140px;
 }
 
 .subscribe-contener {
     margin-top: 50px;
-    background-color: rgb(242, 177, 93);
+    background-color: rgb(230, 187, 152);
     width: 1320px;
     height: 582px;
     border-radius: 16px;
     text-align: center;
 }
+
 .subscribe-now {
     display: inline;
 }
@@ -305,31 +319,34 @@ span {
     position: relative;
     top: 0px;
     right: 100px;
-   
 }
-hr{
+
+hr {
     margin: 0 140px;
 }
-.footer{
-    background-color: rgb(20, 15, 15);
+
+.footer {
+    background: #070211;
 }
-.footer-h{
+
+.footer-h {
     display: flex;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     justify-content: space-between;
     padding: 120px 140px 50px 140px;
     text-align: center;
 }
-.footer-m{
+
+.footer-m {
     display: flex;
     justify-content: center;
     gap: 24px;
     padding: 48px;
 }
-.footer-l{
+
+.footer-l {
     display: flex;
     justify-content: space-between;
-    padding:50px 140px 50px 140px;
+    padding: 50px 140px 50px 140px;
     color: aliceblue;
-
 }
