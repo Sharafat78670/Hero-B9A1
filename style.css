@@ -18,7 +18,6 @@ main {
     padding: 110px 344px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
-
 }
 
 .happy {
@@ -30,11 +29,9 @@ main {
     font-weight: 400;
     line-height: normal;
     padding-bottom: 16px;
-
 }
 
 .year {
-
     color: #ffffff;
     text-align: center;
     font-family: Merriweather;
@@ -42,9 +39,10 @@ main {
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-
 }
-
+.year2024{
+    width: 50%;
+}
 .discount {
     display: inline-block;
     justify-content: center;
@@ -59,7 +57,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-   margin-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .holyday {
@@ -104,7 +102,6 @@ main {
     line-height: 48px;
     letter-spacing: 7.04px;
     width: 642px;
-
 }
 
 .Dolor {
@@ -113,8 +110,6 @@ main {
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    /* font-weight: 400;
-    line-height: 30px; */
     width: 650px;
 }
 
@@ -235,10 +230,10 @@ span {
 
 .background img {
     position: relative;
-    bottom: 100px;
-    left: 100px;
-    width: 400px;
-    height: 320px;
+    bottom: 200px;
+    left: 120px;
+    width: 500px;
+    height: 400px;
 }
 
 .portfolio {
@@ -323,6 +318,7 @@ span {
 
 hr {
     margin: 0 140px;
+    color: rgb(48, 50, 49);
 }
 
 .footer {
@@ -336,6 +332,27 @@ hr {
     justify-content: space-between;
     padding: 120px 140px 50px 140px;
     text-align: center;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.num img {
+    width: 24px;
+    height: 24px;
+}
+
+.site {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.site img {
+    width: 24px;
+    height: 24px;
 }
 
 .footer-m {
